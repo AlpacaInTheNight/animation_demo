@@ -1,8 +1,8 @@
 # Pixi.js animation demo.
 
 ## Copyrights
-Art belongs to [Sakimori](href='http://www.pixiv.net/member_illust.php?id=211515). I don't own it and don't claim it.
-Music belongs to [Kai Engel](http://www.kai-engel.com/) under CC BY-NC-SA 4.0 license.
+Art belongs to [Sakimori](http://www.pixiv.net/member_illust.php?id=211515). I don't own it and don't claim it.<br />
+Music belongs to [Kai Engel](http://www.kai-engel.com/) under CC BY-NC-SA 4.0 license.<br />
 
 Code belongs to me and is dirty and old and you can do with it whatever you want.
 
