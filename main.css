@@ -1,0 +1,125 @@
+/* -GLOBAL STYLES- */
+h1,h2,h3,h4,h5,h6 {font-weight: bold;}
+h1 {font-size: 2.0em;}
+h2 {font-size: 1.5em;}
+h3 {font-size: 1.2em;}
+h4 {font-size: 1.0em;}
+h5 {font-size: 0.8em;}
+h6 {font-size: 0.5em;}
+a {
+	text-decoration: none;
+	color: #bbb;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:visited {}
+
+
+hr {
+	height: 0px;
+	color: #222;
+	background: #222;
+	text-align: center;
+	margin: 10px auto;
+	border-style: solid none;
+	border-width: 1px;
+	border-top-color: #222;
+	border-bottom-color: #999; 
+}
+
+ul {
+	margin-left: 10px;
+}
+
+ol {
+	margin-left: 10px;
+}
+
+li {}
+#wrapper button, #wrapper input[type='button'], #wrapper input[type='submit'], #wrapper input[type='reset'] {}
+#wrapper input[type='text'] {}
+#wrapper input[type='password'] {}
+#wrapper input[type='checkbox'] {}
+#wrapper input[type='file'] {}
+#wrapper input[type='image'] {}
+#wrapper input[type='radio'] {}
+#wrapper input[type='hidden'] {}
+#wrapper textarea {}
+#wrapper select {}
+#wrapper options {}
+/* -GLOBAL STYLES END- */
+
+
+/* -BODY- */
+body {
+	min-width: 987px;
+	font-size: 14px;
+	color: white;
+	background-color: white;
+	font-family: Arial,Helvetica,sans-serif;
+}
+/* -BODY END- */
+
+
+/* -WRAPPER- */
+#wrapper {
+	width: 1000px;
+	position: relative;
+	background-color: #c7c7c7;
+	margin: 0 auto;
+	padding: 0px;
+	min-height: 100%;
+}
+
+/* -WRAPPER END- */
+
+
+/* -HEADER- */
+header {
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background-color: #85a485;
+}
+/* -HEADER END- */
+
+
+/* -CONTENT- */
+/* this is layout styles of content block, for page specified
+styles see CUSTOM STYLES section (or page.css if files are separated) */
+#content {
+	background-color: #9ea6c0;
+	padding-bottom: 50px;
+}
+
+/*needed for clear and float styles works properly*/
+#content .content_body {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	padding: 20px 10px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/* -CONTENT END- */
+
+
+/* -FOOTER- */
+footer {
+	margin: 0 auto;
+	padding: 0px;
+	background-color: #85a485;
+	height: 50px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	line-height: 50px;
+}
+
+footer .footer_body {
+	/*padding: 10px;*/
+}
+/* -FOOTER END- */
